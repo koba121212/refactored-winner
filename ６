@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main(void)
+{
+    int diff;
+    char large;
+    char small;
+    printf("小文字を入力してください>>>");
+    scanf("%c",&large);
+    diff='A'-'a';
+    small=large+diff;
+    printf("小文字は%c 大文字は%c\n",large,small);
+    return 0;
+  
+}
+/*課題は小文字から大文字*/
