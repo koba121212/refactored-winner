@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+    int k,m,bmi;
+    printf("your weight{cm}?");
+    scanf("%d",&k);
+    printf("your height{kg}?");
+    scanf("%d",&m);
+    bmi=m*10000/(k*k);
+    if (bmi>=25)
+    {printf("obesity");
+    }
+    else if  (bmi>=18)
+    {printf("good");}
+    else
+    {printf("too thin");
+    }
+return 0;
+}
